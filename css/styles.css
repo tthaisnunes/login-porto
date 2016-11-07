@@ -1,0 +1,181 @@
+/******theme style*****/
+
+/*colors*/
+.light_blue_bg {
+	background-color: #00adef;
+}
+
+.light_blue_txt {
+	color: #00adef;
+}
+
+.medium_blue_bg {
+	background-color: #018cb7;
+}
+
+.medium_blue_txt {
+	color: #018cb7;
+}
+
+.dark_blue_bg {
+	background-color: #004e70;
+}
+
+.dark_blue_txt {
+	color: #004e70;
+}
+
+.light_secondary_color_bg {
+	background-color: #00adef;
+}
+
+.light_secondary_color_txt {
+	color: #00adef;
+}
+
+.medium_secondary_color_bg {
+	background-color: #018cb7;
+}
+
+.medium_secondary_color_txt {
+	color: #018cb7;
+}
+
+.dark_secondary_color_bg {
+	background-color: #272727;
+}
+
+.dark_secondary_color_txt {
+	color: #272727;
+}
+
+/****struture*****/
+.no-padding-left {
+	padding-left: 0; 
+}
+
+.no-margin {
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+.no-padding {
+	padding-right:0;
+	padding-top:0;
+	padding-left:0;
+	padding-bottom:0;
+}
+
+#section-termos {
+	height: 200px;
+	overflow-y: scroll;
+	border: solid 2px #ddd;
+}
+
+.icon {
+	width: 20px;
+	margin: 3px 10px 5px 0;
+	float: left;
+}
+
+.icon-2 {
+	height: 20px;
+	margin: 3px 5px 5px 0;
+	float: left;
+}
+
+.icon-3 {
+	height: 40px;
+	margin: 7px 10px 5px 0;
+	float: left;
+}
+
+.btn-back {
+	line-height: 50px;
+}
+
+.ps-frm-lbl {
+	margin-bottom: 5px;
+}
+
+.label-margin {
+	margin:10px 0;
+}
+
+.link-height {
+	line-height: 40px;
+}
+
+.icon-sucess {
+	color: #559161;
+	margin: 10% auto 2%
+}
+
+.linha {
+	border-top: solid 1px rgba(0,0,0,.1);
+}
+
+#facebook {
+	background-color: #4f6cad;
+	border: none;
+	color: white;
+	line-height: 40px;
+	font-size: 13px;
+}
+
+#facebook img, #google-plus img {
+	height: 20px;
+	width: 25px;
+	margin: 10px 0;
+	float: left;
+	border-right: solid 1px;
+	padding: 0 14px;
+}
+
+#google-plus {
+	margin-top: 40px;
+	background-color: #ee3f18;
+	border: none;
+	color: white;
+	line-height: 40px;
+	font-size: 13px;
+}
+
+.border-login {
+	border-left: solid 1px rgba(68,68,68,0.2);
+	padding-left: 8%;
+}
+
+.container-login {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+	.border-login {
+		border-left: none;
+		padding-left: 10px;
+		border-top: solid 1px rgba(68,68,68,0.2);
+		margin-top: 30px;
+	}
+
+	body {
+		margin: 0;
+		min-height: 890px;
+		position: relative;
+	}
+
+	br {
+		display: none;
+	}
+
+	.ps-mod8 a {
+		text-align: center;
+	}
+}
+
+
+
+
